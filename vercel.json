@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "files": ["node_modules/tesseract.js/node_modules/tesseract.js-core/tesseract-core-simd.wasm"]
+  }
+}

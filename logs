@@ -1,0 +1,102 @@
+Apr 10, 05:32:32 PM: Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm')
+Apr 10, 05:32:32 PM: b4718179 ERROR  Uncaught Exception 	{"errorType":"RuntimeError","errorMessage":"Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm'). Build with -sASSERTIONS for more info.","stack":["RuntimeError: Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm'). Build with -sASSERTIONS for more info.","    at n (/var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:18:375)","    at Ua (/var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:19:317)","    at /var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:20:394"]}
+Apr 10, 05:32:32 PM: Unknown application error occurred
+Runtime.Unknown
+Apr 10, 05:32:32 PM: b4718179 Duration: 564.22 ms	Memory Usage: 76 MB
+Apr 10, 05:32:32 PM: INIT_START Runtime Version: nodejs:16.v12	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:734d712d91ebc245bd01c52ae85b4025a7885efd1b8c87c0ce49f3e47d2116a4
+Apr 10, 05:33:16 PM: 2d1e26d0 ERROR  Error: Cannot find module 'sharp'
+Require stack:
+- /var/task/.next/server/pages/api/imgConvert.js
+- /var/task/node_modules/next/dist/server/next-server.js
+- /var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js
+- /var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js
+- /var/task/___netlify-handler.js
+- /var/runtime/index.mjs
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Function.mod._resolveFilename (/var/task/node_modules/next/dist/build/webpack/require-hook.js:23:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1067:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.7441 (/var/task/.next/server/pages/api/imgConvert.js:18:18)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at Object.3306 (/var/task/.next/server/pages/api/imgConvert.js:39:63)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at __webpack_exec__ (/var/task/.next/server/pages/api/imgConvert.js:85:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/var/task/.next/server/pages/api/imgConvert.js',
+    '/var/task/node_modules/next/dist/server/next-server.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js',
+    '/var/task/___netlify-handler.js',
+    '/var/runtime/index.mjs'
+  ]
+}
+Apr 10, 05:33:16 PM: 2d1e26d0 INFO   [POST] /api/imgConvert?format=undefined (SSR)
+Apr 10, 05:33:16 PM: 2d1e26d0 Duration: 173.16 ms	Memory Usage: 52 MB
+Apr 10, 05:34:03 PM: 27f12b1d ERROR  Error: Cannot find module 'sharp'
+Require stack:
+- /var/task/.next/server/pages/api/imgConvert.js
+- /var/task/node_modules/next/dist/server/next-server.js
+- /var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js
+- /var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js
+- /var/task/___netlify-handler.js
+- /var/runtime/index.mjs
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Function.mod._resolveFilename (/var/task/node_modules/next/dist/build/webpack/require-hook.js:23:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1067:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.7441 (/var/task/.next/server/pages/api/imgConvert.js:18:18)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at Object.3306 (/var/task/.next/server/pages/api/imgConvert.js:39:63)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at __webpack_exec__ (/var/task/.next/server/pages/api/imgConvert.js:85:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/var/task/.next/server/pages/api/imgConvert.js',
+    '/var/task/node_modules/next/dist/server/next-server.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js',
+    '/var/task/___netlify-handler.js',
+    '/var/runtime/index.mjs'
+  ]
+}
+Apr 10, 05:34:03 PM: 27f12b1d INFO   [POST] /api/imgConvert?format=webp (SSR)
+Apr 10, 05:34:03 PM: 27f12b1d Duration: 6.98 ms	Memory Usage: 53 MB
+Apr 10, 05:34:05 PM: 246e3f4a ERROR  Error: Cannot find module 'sharp'
+Require stack:
+- /var/task/.next/server/pages/api/imgConvert.js
+- /var/task/node_modules/next/dist/server/next-server.js
+- /var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js
+- /var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js
+- /var/task/___netlify-handler.js
+- /var/runtime/index.mjs
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:995:15)
+    at Function.mod._resolveFilename (/var/task/node_modules/next/dist/build/webpack/require-hook.js:23:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:841:27)
+    at Module.require (node:internal/modules/cjs/loader:1067:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.7441 (/var/task/.next/server/pages/api/imgConvert.js:18:18)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at Object.3306 (/var/task/.next/server/pages/api/imgConvert.js:39:63)
+    at __webpack_require__ (/var/task/.next/server/webpack-api-runtime.js:25:42)
+    at __webpack_exec__ (/var/task/.next/server/pages/api/imgConvert.js:85:39) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/var/task/.next/server/pages/api/imgConvert.js',
+    '/var/task/node_modules/next/dist/server/next-server.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/handlerUtils.js',
+    '/var/task/.netlify/functions-internal/___netlify-handler/___netlify-handler.js',
+    '/var/task/___netlify-handler.js',
+    '/var/runtime/index.mjs'
+  ]
+}
+Apr 10, 05:34:05 PM: 246e3f4a INFO   [GET] /api/imgConvert?format=webp (SSR)
+Apr 10, 05:34:05 PM: 246e3f4a Duration: 4.99 ms	Memory Usage: 53 MB
+Apr 10, 05:35:21 PM: Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm')
+Apr 10, 05:35:21 PM: bb0abf01 ERROR  Uncaught Exception 	{"errorType":"RuntimeError","errorMessage":"Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm'). Build with -sASSERTIONS for more info.","stack":["RuntimeError: Aborted(Error: ENOENT: no such file or directory, open '/var/task/node_modules/tesseract.js-core/tesseract-core-simd.wasm'). Build with -sASSERTIONS for more info.","    at n (/var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:18:375)","    at Ua (/var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:19:317)","    at /var/task/node_modules/tesseract.js-core/tesseract-core-simd.js:20:394"]}
+Apr 10, 05:35:21 PM: Unknown application error occurred
+Runtime.Unknown
+Apr 10, 05:35:21 PM: bb0abf01 Duration: 431.33 ms	Memory Usage: 77 MB
+Apr 10, 05:35:21 PM: INIT_START Runtime Version: nodejs:16.v12	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:734d712d91ebc245bd01c52ae85b4025a7885efd1b8c87c0ce49f3e47d2116a4

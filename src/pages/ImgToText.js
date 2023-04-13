@@ -11,7 +11,7 @@ const ImgToText = () => {
         const formData = new FormData();
         formData.append("image", file);
 
-        const compressedImage = await fetch(`http://localhost:3000/api/imgtext`, {
+        const extractedText = await fetch(`http://localhost:3000/api/imgtext`, {
             method: "POST",
             body: formData,
         })

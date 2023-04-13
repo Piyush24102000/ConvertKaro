@@ -11,7 +11,7 @@ const ImgToText = () => {
         const formData = new FormData();
         formData.append("image", file);
 
-        const extractedText = await fetch(`http://localhost:3000/api/imgtext`, {
+        const extractedText = await fetch(`https://convert-karo-6yxz.vercel.app/api/imgtext`, {
             method: "POST",
             body: formData,
         })
